@@ -46,10 +46,11 @@ Set 6:
 1. 
   a) If the location in front of it is empty, but the location two cells in front contains a flower or a rock it will only move one space forward.
   b) If the location two cells in front of the jumper is out of the grid it will also only move one space forward.
-  c) If it is facing an edge of the grid it will stay facing that direction but return an error if tried to move without turning it first.
+  c) If it is facing an edge of the grid it will turn 90 degrees.
   d) If another actor (not a flower or a rock) is in the cell that is two cells in front of the jumper it will only move one space forward.
   e) If it encounters another jumper in its path it will do the same as for any other actor.
   f) There are no other tests.
 
 2.
-  a)
+  a) It should extend the Bug class.
+  b) The Bug class is quite similar.
