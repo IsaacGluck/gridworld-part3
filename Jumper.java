@@ -1,4 +1,23 @@
 //I'm not sure if this actually worked because i couldn't get grid world to run
+/*1.)
+	a.) turn
+	b.) remove from board
+	c.) turn
+	d.) turn
+	e.) just keep going
+	f.) probably but i can’t think of any right now
+
+2.)
+	a.) bug
+	b.) bug
+	c.) it can use the same constructors as bug
+	d.) canMove and move should be overridden
+	e.) none
+	f.) running the code and making it move around in all the cases in part 1
+	*/
+
+
+
 
 package info.gridworld.actor;
 
@@ -40,7 +59,8 @@ public class Jumper extends Bug
         if (gr == null)
             return;
         Location loc = getLocation();
-        Location next = loc.getAdjacentLocation(getDirection());
+        Location temp = loc.getAdjacentLocation(getDirection());
+        Location next = temp.getAdjacentLocation(getDirection());
         if (gr.isValid(next))
             moveTo(next);
         else
@@ -60,7 +80,7 @@ public class Jumper extends Bug
             return false;
         Location loc = getLocation();
         Location temp = loc.getAdjacentLocation(getDirection());
-	Location next = loc.getAdjacentLocation(getDirection());
+	Location next = temp.getAdjacentLocation(getDirection());
         if (!gr.isValid(next))
             return false;
         Actor neighbor = gr.get(next);
