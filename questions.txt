@@ -12,5 +12,12 @@ Set 4:
       the numRows and numCols and just keep track of how many don't return null when you try to get.
       And you can subtract this from total to find the empty spaces, of count up how many do return null
   2.) you can run the Location (10,10) through the isValid method
+  3.) Grid is just an interface. the methods are implemented in BoundedGrid.java and UnboundedGrid.java
+  4.) I think it would be a better design to use arrays because they take up less space, but ArrayLists
+      have more methods. Also an array had a definate size but an ArrayList can get bigger and smaller which
+      is useful depending on what you're returning
+      
+Set 5:
+  1.)
+  2.)
   3.)
-  4.)
