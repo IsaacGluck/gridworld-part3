@@ -10,20 +10,6 @@ import java.awt.Color;
 
 public class Jumper extends Bug
 {
-  
-    public Jumper()
-    {
-	super();
-    }
-
-    /**
-     * Constructs a bug of a given color.
-     * @param bugColor the color for this bug
-     */
-    public Jumper(Color bugColor)
-    {
-        super(bugColor);
-    }
 
     /**
      * Moves if it can move, turns otherwise.
