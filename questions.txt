@@ -1,0 +1,8 @@
+Did you Know?
+Set 3:
+  1.) loc1.getRow()
+  2.) false
+  3.) (4,4)
+  4.) 45
+  5.) The getAjacentLocation method takes an int variable that will represent the angle.
+      So it gets the ajacent location in that direction
