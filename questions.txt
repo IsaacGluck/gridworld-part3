@@ -6,3 +6,11 @@ Set 3:
   4.) 45
   5.) The getAjacentLocation method takes an int variable that will represent the angle.
       So it gets the ajacent location in that direction
+
+Set 4:
+  1.) You could loop through each location on a bounded grid with stacked for loops of
+      the numRows and numCols and just keep track of how many don't return null when you try to get.
+      And you can subtract this from total to find the empty spaces, of count up how many do return null
+  2.) you can run the Location (10,10) through the isValid method
+  3.)
+  4.)
