@@ -54,3 +54,7 @@ Set 6:
 2.
   a) It should extend the Bug class.
   b) The Bug class is quite similar.
+  c) It has a constructors taken from Bug.
+  d) move() and canMove() are overridden.
+  e) no methods need to be added it seems.
+  f) Contingency plan.
