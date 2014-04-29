@@ -31,12 +31,13 @@ Set 6:
         return false;
   2.) Actor neighbor = gr.get(next);
         return (neighbor == null) || (neighbor instanceof Flower);
-  3.)
-  4.)
-  5.)
-  6.)
-  7.)
-  8.)
-  9.)
-  10.)
-  11.)
+  3.) get(Location l), and isValid( Location l) are both invoked because these methods are being called by the grid
+  4.) getAjacenttLocation(int x) is called
+  5.) getDirection() is inherited from Actor.java and used in canMove()
+  6.) the bug gets removed from the grid
+  7.) the variable isn't needed but then it would also have to trace back to where it was to put the flower down
+  8.) because the flower is initialized with the same color as the bug
+  9.) yes
+  10.) Flower flower = new Flower(getColor());
+        flower.putSelfInGrid(gr, loc);
+  11.) 4 times
