@@ -18,6 +18,8 @@ Set 4:
       is useful depending on what you're returning
       
 Set 5:
-  1.)
-  2.)
-  3.)
+  1.) Color, Direction, Location
+  2.) It is colored Blue and facing North.
+  3.) It contains methods and variables that all types of Actors will use, so it makes sense to just write one parent class that it's subclasses can just build off of.
+  4.) An actor cannot put itself into a grid twice without first removing itself nor can it be removed from a grid twice. It can however be placed into a grid, remove itself,and then put itself back.
+  5.) An Actor can turn 90 degrees to the right by running setDirection on (getDirection + 90);
