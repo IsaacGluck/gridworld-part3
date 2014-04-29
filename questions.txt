@@ -24,5 +24,19 @@ Set 5:
   4.) An actor cannot put itself into a grid twice without first removing itself nor can it be removed from a grid twice. It can however be placed into a grid, remove itself,and then put itself back.
   5.) An Actor can turn 90 degrees to the right by running setDirection on (getDirection + 90);
 
- Group Activity 1-2
- 
+Set 6:
+  1.) Location loc = getLocation();
+      Location next = loc.getAdjacentLocation(getDirection());
+      if (!gr.isValid(next))
+        return false;
+  2.) Actor neighbor = gr.get(next);
+        return (neighbor == null) || (neighbor instanceof Flower);
+  3.)
+  4.)
+  5.)
+  6.)
+  7.)
+  8.)
+  9.)
+  10.)
+  11.)
