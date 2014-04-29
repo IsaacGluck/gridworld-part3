@@ -50,3 +50,6 @@ Set 6:
   d) If another actor (not a flower or a rock) is in the cell that is two cells in front of the jumper it will only move one space forward.
   e) If it encounters another jumper in its path it will do the same as for any other actor.
   f) There are no other tests.
+
+2.
+  a)
